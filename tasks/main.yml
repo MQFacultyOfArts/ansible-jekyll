@@ -1,0 +1,13 @@
+---
+- name: Ensure ruby-dev is installed
+  apt: state=present name=ruby-dev
+  sudo: yes
+
+# required by `jekyll new <foo>`
+- name: Ensure nodejs is installed
+  apt: state=present name=nodejs
+  sudo: yes
+
+- name: Ensure jekyll is installed
+  gem: state=present name=jekyll
+
