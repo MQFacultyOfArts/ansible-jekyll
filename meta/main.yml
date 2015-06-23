@@ -4,6 +4,8 @@ galaxy_info:
   description: Ansible role for setting up Jekyll.
   license: BSD
   min_ansible_version: 1.2
+  categories:
+  - web
 dependencies: []
   # List your role dependencies here, one per line. Only
   # dependencies available via galaxy should be listed here.
